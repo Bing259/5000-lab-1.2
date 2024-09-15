@@ -1,0 +1,83 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+---
+# Introduction
+
+This is an example of a Quarto document.
+
+## Section 1
+
+### Subsection 1.1
+
+This is a formatted text with two columns.
+
+:::: {.columns}
+::: {.column width="50%"}
+**Bulleted list**:
+
+- Item A
+- Item B
+- Item C
+
+:::
+
+::: {.column width="50%"}
+**Markdown table**:
+
+| Name  | Course   | Section |
+|-------|----------|---------|
+| Amy   | DSAN5000 | 01      |
+| Bob   | DSAN5000 | 02      |
+| Cindy | DSAN5100 | 01      |
+
+:::
+::::
+
+### Subsection 1.2
+This is an inline-math LaTex equation: $x = e^2$. \
+This is a non inline-math LaTex equation. 
+$$
+x = \frac{b^2}{a^2}
+$$
+
+## Section 2
+
+This is a footnote[^1].
+
+> This is a quote.
+
+This is a reference [@sharma2018nickel].
+
+This is another reference [@eysenbach2002empirical]. 
+
+::: {layout-ncol=2}
+
+![First Image](./images/image1.png){fig-align="left" width="6.62in" height="4in"}
+
+![Second Image](./images/image2.png){fig-align="left" width="6.14in" height="4in"}
+
+:::
+
+{{< video https://www.youtube.com/watch?v=h4KggqdonXU width="800" height="500" >}}
+
+## Section 3
+
+This is a Mermaid diagram.
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Section 1] --> B(Subsection 1.1)
+  B --> C{Classification}
+  C --> D[Cluster A]
+  C --> E[Cluster B]
+```
+
+### References
+
+[^1]: This is the footnote text.
+
+::: {#refs}
+:::

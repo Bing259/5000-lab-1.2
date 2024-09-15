@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "about.html#header-1.1",
+    "href": "about.html#header-1.1",
+    "title": "About",
+    "section": "Header 1.1",
+    "text": "Header 1.1\n\nHeader 1.1.1\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.arange(0, 10, 0.01)\ny = np.sin(x)\nplt.plot(x, y)\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#the-first-slide",
+    "href": "slides/slides.html#the-first-slide",
+    "title": "Presentation",
+    "section": "The first slide",
+    "text": "The first slide\n\nThis is a quote. (Sharma et al. 2018)"
+  },
+  {
+    "objectID": "slides/slides.html#the-second-slide",
+    "href": "slides/slides.html#the-second-slide",
+    "title": "Presentation",
+    "section": "The second slide",
+    "text": "The second slide\n\n\n\n\n\n\n\n\n\nFirst Image\n\n\n\n\n\n\n\nSecond Image"
+  },
+  {
+    "objectID": "slides/slides.html#the-third-slide",
+    "href": "slides/slides.html#the-third-slide",
+    "title": "Presentation",
+    "section": "The third slide",
+    "text": "The third slide\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.arange(0, 10, 0.01)\ny = np.cos(x)\nplt.plot(x, y)\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#reference",
+    "href": "slides/slides.html#reference",
+    "title": "Presentation",
+    "section": "Reference",
+    "text": "Reference\n\n\nSharma, A, J Hickman, N Gazit, E Rabkin, and Y Mishin. 2018. “Nickel Nanoparticles Set a New Record of Strength.” Nature Communications 9 (1): 4102."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is an example of a Quarto document.\n\n\n\n\nThis is a formatted text with two columns.\n\n\nBulleted list:\n\nItem A\nItem B\nItem C\n\n\nMarkdown table:\n\n\n\nName\nCourse\nSection\n\n\n\n\nAmy\nDSAN5000\n01\n\n\nBob\nDSAN5000\n02\n\n\nCindy\nDSAN5100\n01\n\n\n\n\n\n\n\n\nThis is an inline-math LaTex equation: \\(x = e^2\\).\nThis is a non inline-math LaTex equation. \\[\nx = \\frac{b^2}{a^2}\n\\]\n\n\n\n\nThis is a footnote1.\n\nThis is a quote.\n\nThis is a reference (Sharma et al. 2018).\nThis is another reference (Eysenbach et al. 2002).\n\n\n\n\n\n\n\n\n\nFirst Image\n\n\n\n\n\n\n\nSecond Image\n\n\n\n\n\n\n\n\n\nThis is a Mermaid diagram.\n\n\n\n\n\nflowchart LR\n  A[Section 1] --&gt; B(Subsection 1.1)\n  B --&gt; C{Classification}\n  C --&gt; D[Cluster A]\n  C --&gt; E[Cluster B]\n\n\n A Mermaid diagram \n\n\n\n\n\n\n\nEysenbach, Gunther, John Powell, Oliver Kuss, and Eun-Ryoung Sa. 2002. “Empirical Studies Assessing the Quality of Health Information for Consumers on the World Wide Web: A Systematic Review.” Jama 287 (20): 2691–2700.\n\n\nSharma, A, J Hickman, N Gazit, E Rabkin, and Y Mishin. 2018. “Nickel Nanoparticles Set a New Record of Strength.” Nature Communications 9 (1): 4102."
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a formatted text with two columns.\n\n\nBulleted list:\n\nItem A\nItem B\nItem C\n\n\nMarkdown table:\n\n\n\nName\nCourse\nSection\n\n\n\n\nAmy\nDSAN5000\n01\n\n\nBob\nDSAN5000\n02\n\n\nCindy\nDSAN5100\n01\n\n\n\n\n\n\n\n\nThis is an inline-math LaTex equation: \\(x = e^2\\).\nThis is a non inline-math LaTex equation. \\[\nx = \\frac{b^2}{a^2}\n\\]"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a footnote1.\n\nThis is a quote.\n\nThis is a reference (Sharma et al. 2018).\nThis is another reference (Eysenbach et al. 2002).\n\n\n\n\n\n\n\n\n\nFirst Image\n\n\n\n\n\n\n\nSecond Image"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Mermaid diagram.\n\n\n\n\n\nflowchart LR\n  A[Section 1] --&gt; B(Subsection 1.1)\n  B --&gt; C{Classification}\n  C --&gt; D[Cluster A]\n  C --&gt; E[Cluster B]\n\n\n A Mermaid diagram \n\n\n\n\n\n\n\nEysenbach, Gunther, John Powell, Oliver Kuss, and Eun-Ryoung Sa. 2002. “Empirical Studies Assessing the Quality of Health Information for Consumers on the World Wide Web: A Systematic Review.” Jama 287 (20): 2691–2700.\n\n\nSharma, A, J Hickman, N Gazit, E Rabkin, and Y Mishin. 2018. “Nickel Nanoparticles Set a New Record of Strength.” Nature Communications 9 (1): 4102."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the footnote text.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#the-third-slide-1",
+    "href": "slides/slides.html#the-third-slide-1",
+    "title": "Presentation",
+    "section": "The third slide",
+    "text": "The third slide\nplot(car)"
+  }
+]
